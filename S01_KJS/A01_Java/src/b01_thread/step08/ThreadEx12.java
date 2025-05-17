@@ -20,8 +20,8 @@ public class ThreadEx12 {
 
         try {
         	System.out.println("start");
-//            th1.sleep(2000); // Thread.sleep(2000); 같은 코드
-            Thread.sleep(2000);
+            th1.sleep(2000); // Thread.sleep(2000); 같은 코드
+//            Thread.sleep(2000);
             System.out.println("end");
         } catch (InterruptedException e) { }
     }

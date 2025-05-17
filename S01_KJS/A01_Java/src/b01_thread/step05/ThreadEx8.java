@@ -1,14 +1,14 @@
 package b01_thread.step05;
 
 /**
- * ¾²·¹µå ¿ì¼± ¼øÀ§
+ * ì“°ë ˆë“œ ìš°ì„  ìˆœìœ„
  */
 public class ThreadEx8 {
     public static void main(String[] args) {
         ThreadEx8_1 th1 = new ThreadEx8_1();
         ThreadEx8_2 th2 = new ThreadEx8_2();
-        
-        th2.setPriority(7); // 1~10 :: default 5(main)
+
+        th2.setPriority(7);
         System.out.println("Priority of th1(-) : " + th1.getPriority());
         System.out.println("Priority of th2(|) : " + th2.getPriority());
 

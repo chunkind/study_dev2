@@ -1,9 +1,9 @@
 package b01_thread.step02;
 
 /**
- * Run°ú Start
- * Run -> ±×³É ¸Þ¼­µå ½ÇÇà
- * Start -> ´Ù¸¥ ¾²·¹µå¸¦ ¸¸µé¾î run¸Þ¼­µå ½ÇÇà
+ * Runê³¼ Start
+ * Run -> ê·¸ëƒ¥ ë©”ì„œë“œ ì‹¤í–‰
+ * Start -> ë‹¤ë¥¸ ì“°ë ˆë“œë¥¼ ë§Œë“¤ì–´ runë©”ì„œë“œ ì‹¤í–‰
  */
 public class ThreadEx2 {
     public static void main(String[] args) {

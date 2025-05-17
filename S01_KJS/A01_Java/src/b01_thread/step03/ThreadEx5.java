@@ -11,7 +11,7 @@ public class ThreadEx5{
         for(int i=0; i<500; i++)
             System.out.printf("%s", new String("-"));
 
-        System.out.print("�ҿ�ð�1:" + (System.currentTimeMillis() - ThreadEx5.startTime));
+        System.out.print("소요시간1:" + (System.currentTimeMillis() - ThreadEx5.startTime));
     }
 }
 
@@ -21,6 +21,6 @@ class ThreadEx5_1 extends Thread{
         for(int i=0; i<500; i++)
             System.out.printf("%s", new String("|"));
 
-        System.out.print("�ҿ�ð�2:" + (System.currentTimeMillis() - ThreadEx5.startTime));
+        System.out.print("소요시간2:" + (System.currentTimeMillis() - ThreadEx5.startTime));
     }
 }

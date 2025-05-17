@@ -1,9 +1,9 @@
 package b01_thread.step01;
 
 /**
- * ¾²·¹µåÀÇ »ı¼º¹æ¹ı
- * 1. Thread Å¬·¡½º »ó¼Ó
- * 2. Runable ÀÎÅÍÆäÀÌ½º ±¸Çö Å¬·¡½º »ç¿ë
+ * ì“°ë ˆë“œì˜ ìƒì„±ë°©ë²•
+ * 1. Thread í´ë˜ìŠ¤ ìƒì†
+ * 2. Runable ì¸í„°í˜ì´ìŠ¤ êµ¬í˜„ í´ë˜ìŠ¤ ì‚¬ìš©
  */
 public class ThreadEx1 {
     public static void main(String[] args) {

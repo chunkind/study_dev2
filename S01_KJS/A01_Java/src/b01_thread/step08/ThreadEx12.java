@@ -18,9 +18,12 @@ public class ThreadEx12 {
         th1.start();
         th2.start();
 
-//        try {
+        try {
+        	System.out.println("start");
 //            th1.sleep(2000); // Thread.sleep(2000); 같은 코드
-//        } catch (InterruptedException e) { }
+            Thread.sleep(2000);
+            System.out.println("end");
+        } catch (InterruptedException e) { }
     }
 }
 
@@ -31,9 +34,9 @@ class ThreadEx12_1 extends Thread {
             System.out.print("-");
         }
 
-//        try {
-//            sleep(2000); // Thread.sleep(2000); 같은 코드
-//        } catch (InterruptedException e) { }
+        try {
+            sleep(2000); // Thread.sleep(2000); 같은 코드
+        } catch (InterruptedException e) { }
         System.out.print("<<th1 종료>>");
     }
 }

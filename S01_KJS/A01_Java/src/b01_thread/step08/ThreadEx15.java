@@ -13,15 +13,21 @@ public class ThreadEx15 {
 
         try {
             Thread.sleep(2000);
+            System.out.println("th1.suspend--------------------------------");
             th1.suspend(); // 쓰레드 th1를 잠시 중단한다.
             Thread.sleep(2000);
+            System.out.println("th2.suspend--------------------------------");
             th2.suspend();
             Thread.sleep(3000);
+            System.out.println("th1.resume---------------------------------");
             th1.resume();
             Thread.sleep(3000);
+            System.out.println("th1.stop-----------------------------------");
             th1.stop();
+            System.out.println("th2.stop-----------------------------------");
             th2.stop();
             Thread.sleep(2000);
+            System.out.println("th3.stop-----------------------------------");
             th3.stop();
         } catch (InterruptedException e) { }
     }

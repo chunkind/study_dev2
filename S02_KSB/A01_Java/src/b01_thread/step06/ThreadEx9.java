@@ -1,11 +1,11 @@
 package b01_thread.step06;
 
 /**
- * ¾²·¹µå ±×·ì
+ * ì“°ë ˆë“œ ê·¸ë£¹
  *
- * ThreadGroup getThreadGroup() - ¾²·¹µå ÀÚ½ÅÀÌ ¼ÓÇÑ ¾²·¹µå ±×·ìÀ» ¹İÈ¯ÇÑ´Ù.
- * void uncaughtException(Thread t, Throwable e) - ¾²·¹µå ±×·ìÀÇ ¾²·¹µå°¡, Ã³¸®µÇÁö ¾ÊÀº ¿¹¿Ü¿¡
- * ÀÇÇØ ½ÇÇàÀÌ Á¾·áµÇ¾úÀ» ¶§, JVM¿¡ ÀÇÇØ ÀÌ ¸Ş¼­µå°¡ ÀÚµ¿ÀûÀ¸·Î È£ÃâµÈ´Ù.
+ * ThreadGroup getThreadGroup() - ì“°ë ˆë“œ ìì‹ ì´ ì†í•œ ì“°ë ˆë“œ ê·¸ë£¹ì„ ë°˜í™˜í•œë‹¤.
+ * void uncaughtException(Thread t, Throwable e) - ì“°ë ˆë“œ ê·¸ë£¹ì˜ ì“°ë ˆë“œê°€, ì²˜ë¦¬ë˜ì§€ ì•Šì€ ì˜ˆì™¸ì—
+ * ì˜í•´ ì‹¤í–‰ì´ ì¢…ë£Œë˜ì—ˆì„ ë•Œ, JVMì— ì˜í•´ ì´ ë©”ì„œë“œê°€ ìë™ì ìœ¼ë¡œ í˜¸ì¶œëœë‹¤.
  */
 public class ThreadEx9 {
     public static void main(String[] args) {
@@ -16,13 +16,13 @@ public class ThreadEx9 {
         // ThreadGroup(ThreadGroup parent, String name)
         ThreadGroup subGrp1 = new ThreadGroup(grp1, "SubGroup1");
 
-        grp1.setMaxPriority(3); // ¾²·¹µå ±×·ì grp1ÀÇ ÃÖ´ë¿ì¼±¼øÀ§¸¦ 3À¸·Î º¯°æ.
+        grp1.setMaxPriority(3); // ì“°ë ˆë“œ ê·¸ë£¹ grp1ì˜ ìµœëŒ€ìš°ì„ ìˆœìœ„ë¥¼ 3ìœ¼ë¡œ ë³€ê²½.
 
         Runnable r = new Runnable() {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(1000); // ¾²·¹µå¸¦ 1ÃÊ°£ ¸ØÃß°Ô ÇÑ´Ù.
+                    Thread.sleep(1000); // ì“°ë ˆë“œë¥¼ 1ì´ˆê°„ ë©ˆì¶”ê²Œ í•œë‹¤.
                 } catch (InterruptedException e) { }
             }
         };

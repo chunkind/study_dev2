@@ -24,7 +24,10 @@ class ThreadEx14_1 extends Thread{
             System.out.println(i--);
             try{
                 Thread.sleep(1000); // 1초 지연
-            } catch(InterruptedException e) { }
+            } catch(InterruptedException e) {
+//            	e.printStackTrace();
+            	interrupt();
+            }
         }
 
         System.out.println("카운트가 종료되었습니다.");

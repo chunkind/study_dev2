@@ -8,7 +8,7 @@ public class MiniThreadEx {
 		for (int i = 0; i < 10; i++) {
 			workQueue.enqueue(new MyTask(i + " 번째 Task"));
 		}
-	
+
 		// 워커 쓰레드 10개 만들어서 시작
 		// 구현...
 		for (int i = 0; i < 10; i++) {
@@ -20,45 +20,45 @@ public class MiniThreadEx {
 
 // 구현...
 class Worker implements Runnable {
-   @Override
-   public void run() {
-      while (true) {
-         Task task = null;
-//         synchronized (MiniThreadEx.workQueue) {
-            if (MiniThreadEx.workQueue.size() > 0) {
-               task = MiniThreadEx.workQueue.dequeue();
-            }
-//         }
+	@Override
+	public void run() {
+		while (true) {
+			Task task = null;
+			synchronized (MiniThreadEx.workQueue) {
+				if (MiniThreadEx.workQueue.size() > 0) {
+					task = MiniThreadEx.workQueue.dequeue();
+				}
+			}
 
-         if (task != null) {
-            System.out.println(Thread.currentThread().getName() + " 작업 시작");
-            task.execute();
-            System.out.println(Thread.currentThread().getName() + " 작업 완료");
-         } else {
-            break;
-         }
-      }
-   }
+			if (task != null) {
+				System.out.println(Thread.currentThread().getName() + " 작업 시작");
+				task.execute();
+				System.out.println(Thread.currentThread().getName() + " 작업 완료");
+			} else {
+				break;
+			}
+		}
+	}
 }
 
 interface Task {
-   void execute();
+	void execute();
 }
 
 class MyTask implements Task {
-   private String taskName;
+	private String taskName;
 
-   public MyTask(String taskName) {
-      this.taskName = taskName;
-   }
+	public MyTask(String taskName) {
+		this.taskName = taskName;
+	}
 
-   @Override
-   public void execute() {
-      System.out.println(taskName + " 처리중..");
-      try {
-         Thread.sleep(1000 * 1); // 10초걸리는작업...
-      } catch (InterruptedException e) {
-         System.out.println(e.getMessage());
-      }
-   }
+	@Override
+	public void execute() {
+		System.out.println(taskName + " 처리중..");
+		try {
+			Thread.sleep(1000 * 1); // 10초걸리는작업...
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
+	}
 }

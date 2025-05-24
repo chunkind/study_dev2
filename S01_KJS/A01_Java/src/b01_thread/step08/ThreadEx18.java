@@ -39,8 +39,8 @@ class ThreadEx18_1 implements Runnable {
     public void run() {
         String name = th.getName();
 
-        while(!stopped) {
-            if(!suspended) {
+        while(stopped == false) {
+            if(suspended == false) {
                 System.out.println(name);
                 try {
                     Thread.sleep(1000);
@@ -48,7 +48,7 @@ class ThreadEx18_1 implements Runnable {
                     System.out.println(name + " - interrupted");
                 }
             } else {
-                Thread.yield();
+                Thread.yield(); // RUNABLE
             }
         }
         System.out.println(name + " - stopped");

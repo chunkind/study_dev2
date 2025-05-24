@@ -14,6 +14,9 @@ public class ThreadEx20 {
             // 필요한 메모리가 사용할 수 있는 양보다 크거나 전체 메모리의 60%이상을 사용했을 경우 gc를 깨운다.
             if(gc.freeMemory() < requiredMemory || gc.freeMemory() < gc.totalMemory() * 0.4){
                 gc.interrupt(); // 잠자고 있는 쓰레드 gc를 깨운다.
+                try {
+					gc.join(100); // 1000 -> 1 초
+				} catch (InterruptedException e) {}
             }
 
             gc.usedMemory += requiredMemory;
@@ -21,11 +24,9 @@ public class ThreadEx20 {
         }
     }
 }
-
 class ThreadEx20_1 extends Thread {
     final static int MAX_MEMORY = 1000;
     int usedMemory = 0;
-
     @Override
     public void run() {
         while(true){
@@ -39,12 +40,10 @@ class ThreadEx20_1 extends Thread {
             System.out.println("Garbage Collected. Free Memory :" + freeMemory());
         }
     }
-
     public void gc(){
         usedMemory -= 300;
         if(usedMemory < 0) usedMemory = 0;
     }
-
     public int totalMemory() { return MAX_MEMORY; }
     public int freeMemory() { return MAX_MEMORY - usedMemory; }
 }

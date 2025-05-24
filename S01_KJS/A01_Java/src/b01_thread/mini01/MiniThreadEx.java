@@ -34,6 +34,8 @@ class Worker implements Runnable {
             System.out.println(Thread.currentThread().getName() + " 작업 시작");
             task.execute();
             System.out.println(Thread.currentThread().getName() + " 작업 완료");
+         } else {
+            break;
          }
       }
    }
@@ -54,7 +56,7 @@ class MyTask implements Task {
    public void execute() {
       System.out.println(taskName + " 처리중..");
       try {
-         Thread.sleep(1000 * 10); // 10초걸리는작업...
+         Thread.sleep(1000 * 1); // 10초걸리는작업...
       } catch (InterruptedException e) {
          System.out.println(e.getMessage());
       }

@@ -6,8 +6,8 @@ public class ThreadEx16 {
         RunImplEx16 r2 = new RunImplEx16();
         RunImplEx16 r3 = new RunImplEx16();
         Thread th1 = new Thread(r1, "*");
-        Thread th2 = new Thread(r2, "*");
-        Thread th3 = new Thread(r3, "*");
+        Thread th2 = new Thread(r2, "**");
+        Thread th3 = new Thread(r3, "***");
 
         th1.start();
         th2.start();

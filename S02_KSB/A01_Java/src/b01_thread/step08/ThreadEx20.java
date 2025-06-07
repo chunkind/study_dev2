@@ -6,7 +6,8 @@ public class ThreadEx20 {
         gc.setDaemon(true);
         gc.start();
 
-        int requiredMemory = 0;
+        int requiredMemory = 
+                0;
 
         for (int i=0; i<20; i++){
             requiredMemory = (int) (Math.random() * 10) * 20;

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c40bda5-e15b-4c1d-a2d7-c71525b12d75" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/S04_SYS/A01_Java/src/c02_singly_linked_list/SinglyLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2xCVCmAh1vSLfXNDc7Tb5xq6umr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MiniThreadEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx11 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx11.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx14 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx14 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx14 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx15 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx15 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx15 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx15 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx15.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx16 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx16.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx18.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx20.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadEx9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/git/study_dev2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\study_dev2\S04_SYS\A01_Java\src\b01_thread" />
+      <recent name="C:\git\study_dev2\S04_SYS\A01_Java\src\b01_thread\step08" />
+      <recent name="C:\git\study_dev2\S04_SYS\A01_Java\src\c02_singly_linked_list" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MiniThreadEx">
+    <configuration name="MiniThreadEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b01_thread.mini01.MiniThreadEx" />
+      <module name="study_dev2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b01_thread.mini01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadEx20 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b01_thread.step08.ThreadEx20" />
+      <module name="study_dev2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b01_thread.step08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadEx20 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b01_thread.step08.ThreadEx20" />
+      <module name="study_dev2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b01_thread.step08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadEx20 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b01_thread.step08.ThreadEx20" />
+      <module name="study_dev2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b01_thread.step08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadEx20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b01_thread.step08.ThreadEx20" />
+      <module name="study_dev2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="b01_thread.step08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MiniThreadEx" />
+        <item itemvalue="Application.ThreadEx20" />
+        <item itemvalue="Application.ThreadEx20 (1)" />
+        <item itemvalue="Application.ThreadEx20 (5)" />
+        <item itemvalue="Application.ThreadEx20 (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c40bda5-e15b-4c1d-a2d7-c71525b12d75" name="Changes" comment="" />
+      <created>1747441916771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747441916771</updated>
+      <workItem from="1747441917957" duration="1029000" />
+      <workItem from="1747444186890" duration="13000" />
+      <workItem from="1747447321116" duration="8385000" />
+      <workItem from="1747459450289" duration="1727000" />
+      <workItem from="1747615369267" duration="27000" />
+      <workItem from="1748045083501" duration="8367000" />
+      <workItem from="1748053709809" duration="5590000" />
+      <workItem from="1748062584568" duration="21000" />
+      <workItem from="1749259883381" duration="2074000" />
+      <workItem from="1749270437671" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

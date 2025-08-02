@@ -3,8 +3,6 @@ import Header from './components/Header';
 import ImageCard from './components/ImageCard';
 import Footer from './components/Footer';
 
-
-
 function App() {
   // 비동기로 데이터를 가지고 온다.
   let json = {

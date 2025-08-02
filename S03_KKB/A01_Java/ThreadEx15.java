@@ -11,6 +11,7 @@ public class ThreadEx15 {
         th2.start();
         th3.start();
 
+        System.out.println("Start--------------------------------------");
         try {
             Thread.sleep(2000);
             System.out.println("th1.suspend--------------------------------");
@@ -30,6 +31,7 @@ public class ThreadEx15 {
             System.out.println("th3.stop-----------------------------------");
             th3.stop();
         } catch (InterruptedException e) { }
+        System.out.println("End----------------------------------------");
     }
 }
 

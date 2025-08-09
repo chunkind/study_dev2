@@ -24,51 +24,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MiniThreadEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx12.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx14 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx14 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx14 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx14.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx15 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx15 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx15 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx15 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx16 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx18.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx20.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadEx9.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/git/study_dev2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MiniThreadEx.executor": "Run",
+    "Application.ThreadEx10.executor": "Run",
+    "Application.ThreadEx11 (1).executor": "Run",
+    "Application.ThreadEx11.executor": "Run",
+    "Application.ThreadEx12 (1).executor": "Run",
+    "Application.ThreadEx12 (2).executor": "Run",
+    "Application.ThreadEx12 (3).executor": "Run",
+    "Application.ThreadEx12 (4).executor": "Run",
+    "Application.ThreadEx12 (5).executor": "Run",
+    "Application.ThreadEx12.executor": "Run",
+    "Application.ThreadEx14 (1).executor": "Run",
+    "Application.ThreadEx14 (2).executor": "Run",
+    "Application.ThreadEx14 (3).executor": "Run",
+    "Application.ThreadEx14.executor": "Run",
+    "Application.ThreadEx15 (1).executor": "Run",
+    "Application.ThreadEx15 (2).executor": "Run",
+    "Application.ThreadEx15 (3).executor": "Run",
+    "Application.ThreadEx15 (4).executor": "Run",
+    "Application.ThreadEx15.executor": "Run",
+    "Application.ThreadEx16 (1).executor": "Run",
+    "Application.ThreadEx16.executor": "Run",
+    "Application.ThreadEx18.executor": "Run",
+    "Application.ThreadEx20 (1).executor": "Run",
+    "Application.ThreadEx20 (2).executor": "Run",
+    "Application.ThreadEx20 (3).executor": "Run",
+    "Application.ThreadEx20 (4).executor": "Run",
+    "Application.ThreadEx20 (5).executor": "Run",
+    "Application.ThreadEx20.executor": "Run",
+    "Application.ThreadEx9.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/git/study_dev2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\git\study_dev2\S04_SYS\A01_Java\src\b01_thread" />
@@ -178,6 +178,7 @@
       <workItem from="1748062584568" duration="21000" />
       <workItem from="1749259883381" duration="2074000" />
       <workItem from="1749270437671" duration="89000" />
+      <workItem from="1754698578102" duration="5000" />
     </task>
     <servers />
   </component>

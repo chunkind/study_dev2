@@ -1,0 +1,53 @@
+/* 공통 */
+.acore_contents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 150px 10px 90px 10px;
+}
+
+/* 헤더 */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: beige;
+    align-items: center;
+}
+
+.acore_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.acore_header_logo img{
+    width: 100px;
+    height: 100px;
+}
+
+/* 컨텐츠 영역 */
+
+.card{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-25px);
+    overflow: hidden;
+}

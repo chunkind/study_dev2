@@ -1,8 +1,0 @@
-.header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100px;
-    background-color: beige;
-    align-items: center;
-}

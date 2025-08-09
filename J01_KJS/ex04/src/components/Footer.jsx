@@ -1,8 +1,12 @@
 import React from 'react';
 
+import styles from '../styles/Acore.module.css';
+
 function Footer(){
   return (
-    <div>푸터</div>
+    <div className={styles.acore_footer}>
+      
+    </div>
   );
 }
 

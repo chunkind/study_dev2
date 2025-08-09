@@ -1,15 +1,14 @@
 import React from 'react';
-import styles from '../styles/Header.module.css';
+import styles from '../styles/Acore.module.css';
 
 function Header(){
   return (
-    <div>
-      <div className={styles.header_logo}>
-        <img src=''/>
+    <div className={styles.acore_header}>
+      <div className={styles.acore_header_logo}>
+        <img src='/images/chunkind_logo.png'/>
       </div>
-
-      <div className={styles.header}>
-        <div>해더1</div>
+      <div className={styles.acore_header_cont}>
+        
       </div>
     </div>
   );

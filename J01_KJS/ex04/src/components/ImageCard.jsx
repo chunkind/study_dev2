@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './ImageCard.module.css';
+import styles from '../styles/Acore.module.css';
 
 function ImageCard({title, desc}){
   return (
-    <div className={styles.cardContainer}>
-      <img src=''  />
-      <div>
-        <h3>{title}</h3>
-        <p>{desc}</p>
+    <div className={styles.card}>
+      <img src='/images/chunkind_logo.png' className={styles.image} />
+      <div className={styles.textArea}>
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{desc}</p>
       </div>
     </div>
   );

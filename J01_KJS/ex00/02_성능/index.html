@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="itemList">
+  </div>
+  <script>
+    // for(let i=0; i<3000; i++){
+    //   document.getElementById('itemList').innerHTML += "<h1>아이템</h1>";
+    // }
+
+    let html = '';
+    for(let i=0; i<100000; i++){
+      html += '<h1>아이템</h1>';
+    }
+    document.getElementById('itemList').innerHTML = html;
+  </script>
+</body>
+</html>

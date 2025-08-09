@@ -3,8 +3,14 @@ import styles from '../styles/Header.module.css';
 
 function Header(){
   return (
-    <div className={styles.header}>
-      <div>해더1</div>
+    <div>
+      <div className={styles.header_logo}>
+        <img src=''/>
+      </div>
+
+      <div className={styles.header}>
+        <div>해더1</div>
+      </div>
     </div>
   );
 }
